@@ -87,6 +87,20 @@ Other features :
 
 - 系统每隔7秒左右就会进行一次重新配置下一个image， 周而复始，第四个imag会加载第一个的image
 
+## Documentation
+
+系统中的文档参考了，注册Efinix用户后， 可以下载更加详细的应用指南
+在application note目录里有应用解释
+
+- an010-using-internal-reconfiguration-feature-v1.0.pdf（需注册用户）
+
+- an010_T20EVB Setting.pdf  
+- Efiniy多镜像原理及用途.pdf  
+- receiverimag.jpg  
+- T20_multi_reconfig_Ben.pdf  
+- T8EVB_multiimage.jpg  
+- T8_Multi_image.pdf  
+
 ## Project Verilog file list
 
 - internal_reconfiguration_top.v  
@@ -128,7 +142,7 @@ assign cfg_ENA = 1'b1;
 ## Acknowledge
 
 The code is by Ben Chen
-Test by Wisdom Zhang 
+Test by Wisdom Zhang
 
 Project upload by Wisdom Zhang
 
