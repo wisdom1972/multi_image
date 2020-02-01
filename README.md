@@ -85,6 +85,24 @@ Other features :
 
 - STEP5: download the FPGA design multix4.hex into FPGA, it is all set
 
+- 四个FPGA镜像合成的文件 multix4.hex
+- 如何生成的四个镜像合并在文档的pdf文件中详细描述
+- multix4.rpt显示了不同的imag的区间和Flash的开始和结束地址
+
+**** Efinity Programming Tool Generation Report *****
+
+Time: 2020-02-01 13:00
+Generated Multi Image output file: /home/wisdom/2019.3/project/muti_image/multix4.hex
+Device: T20/T13/T8
+Image type: external
+CBSEL[1:0]  Flash Address  Length      Input Image File
+     2'b00  0x00000000     0x000a5afa  /home/wisdom/2019.3/project/muti_image/golden1/outflow/internal_reconfiguration_golden.hex
+     2'b01  0x000a6000     0x000a5afa  /home/wisdom/2019.3/project/muti_image/golden2/outflow/internal_reconfiguration_golden.hex
+     2'b10  0x0014c000     0x000a5afa  /home/wisdom/2019.3/project/muti_image/golden3/outflow/internal_reconfiguration_golden.hex
+     2'b11  0x001f2000     0x000a5afa  /home/wisdom/2019.3/project/muti_image/golden4/outflow/internal_reconfiguration_golden.hex
+
+
+
 - 系统每隔7秒左右就会进行一次重新配置下一个image， 周而复始，第四个imag会加载第一个的image
 
 ## Documentation
