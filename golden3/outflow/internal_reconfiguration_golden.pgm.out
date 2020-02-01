@@ -1,0 +1,16 @@
+
+Efinix FPGA Programmer.
+Version: 2019.3.272.1.6 
+Copyright (C) 2013 - 2019 Efinix Inc. All rights reserved.
+
+Compiled: Dec  9 2019.
+
+Using source file "/home/wisdom/2019.3/project/muti_image/golden3/work_pnr/internal_reconfiguration_golden.lbf"
+Generating HEX programming file for device "T20F256", family "Trion"
+Using periphery source file "/home/wisdom/2019.3/project/muti_image/golden3/outflow/internal_reconfiguration_golden.lpf"
+Finished generating "/home/wisdom/2019.3/project/muti_image/golden3/outflow/internal_reconfiguration_golden.hex"
+Efinity Programmer took 1.2048 seconds.
+	Efinity Programmer took 1.21 seconds (approximately) in total CPU time.
+Efinity Programmer virtual memory usage: begin = 62.148 MB, end = 94.4 MB, delta = 32.252 MB
+Efinity Programmer resident set memory usage: begin = 5.276 MB, end = 40.964 MB, delta = 35.688 MB
+	Efinity Programmer peak resident set memory usage = 329.532 MB

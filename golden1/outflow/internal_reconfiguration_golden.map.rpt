@@ -1,0 +1,82 @@
+Synthesis report for project internal_reconfiguration_golden
+Date : Feb 1 2020  12:56:8
+Copyright (C) 2013 - 2019 Efinix Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
+Top-level Entity Name : internal_reconfiguration_top
+### ### File List (begin) ### ### ###
+/home/wisdom/2019.3/project/muti_image/golden1/internal_reconfiguration.v (verilog_2k)
+/home/wisdom/2019.3/project/muti_image/golden1/internal_reconfiguration_top.v (verilog_2k)
+### ### File List (end) ### ### ###
+
+### ### Pre-optimizations and mapping (begin) ### ### ###
+
+Mapping success.
+### ### Mapping (end) ### ### ###
+
+### ### Post-optimizations and re-synthesis (begin) ### ### ###
+
+Post-optimizations and re-synthesis success.
+### ### Post-optimizations and re-synthesis (end) ### ### ###
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 2
+Enable signal <n143>, number of controlling flip flops: 25
+Enable signal <cfg_ENA>, number of controlling flip flops: 19
+### ### EFX FF CE enables (end) ### ### ###
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                             FFs        ADDs        LUTs      RAMs     MULTs
+----------------------------------------------------------         ---        ----        ----      ----     -----
+internal_reconfiguration_top:internal_reconfiguration_top       44(25)      41(23)       19(8)      1(0)      0(0)
++u1:internal_reconfiguration                                    19(19)      18(18)      11(11)      1(1)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+ Clock     Flip-Flops   Memory Ports    Multipliers
+ -----     ----------   ------------    -----------
+   clk             44              1              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T20F256
+project : internal_reconfiguration_golden
+root : internal_reconfiguration_top
+I : /home/wisdom/2019.3/project/muti_image/golden1
+output-dir : /home/wisdom/2019.3/project/muti_image/golden1/outflow
+work-dir : /home/wisdom/2019.3/project/muti_image/golden1/work_syn
+write-efx-verilog : /home/wisdom/2019.3/project/muti_image/golden1/outflow/internal_reconfiguration_golden.map.v
+binary-db : /home/wisdom/2019.3/project/muti_image/golden1/internal_reconfiguration_golden.vdb
+insert-ios : 0
+num_mult18 : -1
+num_ram_5k : -1
+syn_options : mode=speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	4
+OUTPUT PORTS    : 	9
+
+EFX_ADD         : 	41
+EFX_LUT4        : 	19
+   1-2  Inputs  : 	4
+   3    Inputs  : 	3
+   4    Inputs  : 	12
+EFX_FF          : 	44
+EFX_RAM_5K      : 	1
+EFX_GBUFCE      : 	1
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 1s
+Elapsed synthesis time : 1s

@@ -1,0 +1,46 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2019.3.272.1.6 
+Date: Sat Feb  1 12:56:13 2020
+
+Copyright (C) 2013 - 2019 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T20F256
+Top-level Entity Name: internal_reconfiguration_golden
+
+---------- Resource Summary (begin) ----------
+Inputs: 4 / 470 (0.85%)
+Outputs: 9 / 595 (1.51%)
+Clocks: 2 / 16 (12.50%)
+Logic Elements: 64 / 19728 (0.32%)
+	LE: LUTs/Adders: 62 / 19728 (0.31%)
+	LE: Registers: 44 / 13920 (0.32%)
+Memory Blocks: 1 / 204 (0.49%)
+Multipliers: 0 / 36 (0.00%)
+---------- Resource Summary (end) ----------
+
+
+---------- Memory Block Information (begin) ----------
+
++--------+------+------------+-------------+--------------+------------+
+|  NAME  | MODE | READ_WIDTH | WRITE_WIDTH |  WRITE_MODE  | OUTPUT_REG |
++--------+------+------------+-------------+--------------+------------+
+| u1/mem | SDP  |     4      |      4      | READ_UNKNOWN |   false    |
++--------+------+------------+-------------+--------------+------------+
+
+----------- Memory Block Information (end) ----------
+
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|        reverse         |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 1 seconds

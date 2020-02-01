@@ -1,0 +1,12 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2019.3.272.1.6 
+Date: Sat Feb  1 12:29:53 2020
+
+Copyright (C) 2013 - 2019 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T20F256
+Top-level Entity Name: internal_reconfiguration_golden
+Elapsed time for routing: 0 hours 0 minutes 0 seconds
+Elapsed time for entire flow: 0 hours 0 minutes 7 seconds

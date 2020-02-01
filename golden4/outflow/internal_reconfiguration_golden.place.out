@@ -1,0 +1,181 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2019.3.272.1.6 
+Compiled: Jan 16 2020.
+
+Copyright (C) 2013 - 2019 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T20F256" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "/home/wisdom/2019.3/project/muti_image/golden4/internal_reconfiguration_golden.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0288915 seconds.
+	VDB Netlist Checker took 0.03 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 142.312 MB, end = 142.312 MB, delta = 0 MB
+VDB Netlist Checker resident set memory usage: begin = 30.432 MB, end = 30.432 MB, delta = 0 MB
+	VDB Netlist Checker peak resident set memory usage = 288.712 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from '/home/wisdom/2019.3/project/muti_image/golden4/outflow/internal_reconfiguration_golden.interface.csv'.
+Successfully processed interface constraints file "/home/wisdom/2019.3/project/muti_image/golden4/outflow/internal_reconfiguration_golden.interface.csv".
+Creating interface clock pin clk_ru.
+Creating interface clock buffer clk_ru~CLKBUF.
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+logical_block #12(reverse) has no fanout.
+Removing input.
+Pass 0: Swept away 1 blocks with no fanout.
+Pass 1: Swept away 0 nets with no fanout.
+Pass 1: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 1 blocks in total.
+Removed 0 LUT buffers.
+Sweeped away 1 nodes.
+Successfully created VPR logical netlist from Verific binary DataBase file "/home/wisdom/2019.3/project/muti_image/golden4/internal_reconfiguration_golden.vdb".
+Netlist pre-processing took 0.0366395 seconds.
+	Netlist pre-processing took 0.04 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 142.312 MB, end = 142.312 MB, delta = 0 MB
+Netlist pre-processing resident set memory usage: begin = 30.432 MB, end = 30.432 MB, delta = 0 MB
+	Netlist pre-processing peak resident set memory usage = 288.712 MB
+***** Ending stage netlist pre-processing *****
+***** Beginning stage packing ... *****
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+Generate proto netlist for file "/home/wisdom/2019.3/project/muti_image/golden4/work_pnr/internal_reconfiguration_golden.net_proto" took 0.00036 seconds
+Creating IO constraints file '/home/wisdom/2019.3/project/muti_image/golden4/work_pnr/internal_reconfiguration_golden.io_place'
+Packing took 0.0659049 seconds.
+	Packing took 0.07 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 142.312 MB, end = 146.028 MB, delta = 3.716 MB
+Packing resident set memory usage: begin = 30.432 MB, end = 34.564 MB, delta = 4.132 MB
+	Packing peak resident set memory usage = 288.712 MB
+***** Ending stage packing *****
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file /home/wisdom/2019.3/project/muti_image/golden4/work_pnr/internal_reconfiguration_golden.net_proto
+Read proto netlist for file "/home/wisdom/2019.3/project/muti_image/golden4/work_pnr/internal_reconfiguration_golden.net_proto" took 0.000123 seconds
+Setup net and block data structure took 0.00947 seconds
+Packed netlist loading took 0.0219823 seconds.
+	Packed netlist loading took 0.02 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 144.736 MB, end = 144.736 MB, delta = 0 MB
+Packed netlist loading resident set memory usage: begin = 33.608 MB, end = 33.892 MB, delta = 0.284 MB
+	Packed netlist loading peak resident set memory usage = 288.712 MB
+***** Ending stage packed netlist loading *****
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+SDC file '/home/wisdom/2019.3/project/muti_image/golden4/internal_reconfiguration.sdc' parsed successfully.
+1 clocks (including virtual clocks), 4 inputs and 9 outputs were constrained.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from '/home/wisdom/2019.3/project/muti_image/golden4/outflow/internal_reconfiguration_golden.interface.csv'.
+Successfully processed interface constraints file "/home/wisdom/2019.3/project/muti_image/golden4/outflow/internal_reconfiguration_golden.interface.csv".
+Writing IO placement constraints to '/home/wisdom/2019.3/project/muti_image/golden4/outflow/internal_reconfiguration_golden.interface.io'.
+
+Reading placement constraints from '/home/wisdom/2019.3/project/muti_image/golden4/outflow/internal_reconfiguration_golden.interface.io'.
+WARNING(1): [Line 18] Block reverse invalid, no such block.
+
+Reading placement constraints from '/home/wisdom/2019.3/project/muti_image/golden4/work_pnr/internal_reconfiguration_golden.io_place'.
+***** Ending stage initial placement *****
+***** Beginning stage placement ... *****
+memory map at hier_level memory(0)/mem_blk(0)
+mult map at hier_level mult(0)/mult_blk(0)
+Starting Global Placer ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps) Convergence
+ ----------     -------  --------------     -------
+          1         265        -3984013        82.6%
+          2         280        -3984016        82.6%
+          3         278        -3984016        82.6%
+          4         275        -3984275        82.6%
+          5         268        -3984275        82.6%
+          6         272        -3984275        82.6%
+          7         269        -3984016        82.6%
+          8         265        -3984016        82.8%
+          9         266        -3984016        84.3%
+         10         266        -3984016        86.3%
+         11         269        -3984016        87.4%
+         12         272        -3984016        90.8%
+         13         279        -3984016        91.1%
+         14         267        -3984237        97.3%
+         15         267        -3984237        98.4%
+         16         267        -3984495        98.7%
+         17         267        -3984322        98.7%
+         18         267        -3984322        99.3%
+         19         268        -3984064       100.0%
+         20         268        -3984064       100.0%
+Starting Legalization ... 
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0         267           15779        30.0
+          1         360           15042        30.0
+          2         420           15042        30.0
+          3         436           15042        30.0
+          4         430           15042        30.0
+          5         406           15007        30.0
+          6         400           15007        30.0
+          7         403           14839        30.0
+          8         405           14839        30.0
+          9         399           14839        30.0
+         10         400           14839        30.0
+         11         403           14839        30.0
+         12         385           14839        30.0
+         13         388           14839        30.0
+         14         381           14839        30.0
+         15         384           14839        30.0
+         16         374           14839        30.0
+         17         365           14839        30.0
+         18         368           14839        30.0
+         19         365           14839        30.0
+         20         363           14839        30.0
+         21         344           14839        30.0
+         22         341           14839        30.0
+         23         340           14839        30.0
+         24         335           14839        30.0
+         25         332           14839        29.9
+         26         330           14817        29.8
+         27         332           14817        30.0
+         28         328           14817        29.8
+         29         328           14817        29.5
+         30         332           14817        30.0
+         31         326           14817        29.3
+         32         318           14817        28.8
+         33         311           14817        27.7
+         34         306           14817        27.0
+         35         308           14817        26.2
+         36         304           14817        25.0
+         37         298           14817        24.4
+         38         294           14817        23.3
+         39         291           14817        22.5
+         40         291           14817        21.2
+         41         290           14817        20.2
+         42         289           14817        19.1
+         43         285           14817        17.8
+         44         286           14817        16.8
+         45         288           14817        16.0
+         46         288           14817        15.0
+         47         286           14817        14.6
+Placement successful: 85 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.00811674 at 155,8
+Congestion-weighted HPWL per net: 1.78323
+
+Reading placement constraints from '/home/wisdom/2019.3/project/muti_image/golden4/outflow/internal_reconfiguration_golden.qplace'.
+Finish Realign Types (5 blocks need type change)
+
+Completed placement consistency check successfully.
+
+Placement estimated critical path delay: 14.6969 ns
+Successfully created FPGA place file '/home/wisdom/2019.3/project/muti_image/golden4/outflow/internal_reconfiguration_golden.place'
+Placement took 1.75129 seconds.
+	Placement took 1.75 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 146.856 MB, end = 469.532 MB, delta = 322.676 MB
+Placement resident set memory usage: begin = 35.736 MB, end = 121.472 MB, delta = 85.736 MB
+	Placement peak resident set memory usage = 288.712 MB
+***** Ending stage placement *****

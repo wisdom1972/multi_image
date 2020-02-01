@@ -1,0 +1,23 @@
+
+# Efinity Interface Configuration
+# Version: 2019.3.272
+# Date: 2020-02-01 12:26
+
+# Copyright (C) 2017 - 2019 Efinix Inc. All rights reserved.
+
+# [required] (input|output|clkout), x, y, z, __bypass__|[~|!]<clock>, [[~|!]<pin_name>] | __vcc__ | __gnd__
+clkout, 0, 3, -1, clk_ru
+required output, 0, 3, 0, __bypass__, cfg_CBSEL[0]
+required output, 0, 3, 2, __bypass__, cfg_CBSEL[1]
+required output, 0, 6, 0, __bypass__, cfg_CONFIG
+required output, 0, 5, 0, __bypass__, cfg_ENA
+input, 0, 14, 3, __bypass__, cfg_ERROR
+output, 160, 12, 0, __bypass__, cfg_ERROR_port
+input, 0, 118, 1, __bypass__, clk
+input, 160, 120, 1, __bypass__, clk_ru
+output, 160, 184, 2, __bypass__, led[0]
+output, 160, 142, 0, __bypass__, led[1]
+output, 160, 19, 2, __bypass__, led[2]
+output, 160, 14, 2, __bypass__, led[3]
+input, 0, 147, 1, __bypass__, reverse
+input, 0, 17, 1, __bypass__, rstn

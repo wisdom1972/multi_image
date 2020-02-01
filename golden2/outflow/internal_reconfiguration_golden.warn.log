@@ -1,0 +1,40 @@
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 65) expression size 32 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 68) expression size 20 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 35) net 'mem' does not have a driver (VDB-1002)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 65) expression size 32 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 68) expression size 20 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 35) net 'mem' does not have a driver (VDB-1002)
+[EFX-0007 VERI-WARNING] Input/Inout Port reverse is unconnected and will be removed
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 65) expression size 32 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 68) expression size 20 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 35) net 'mem' does not have a driver (VDB-1002)
+[EFX-0007 VERI-WARNING] Input/Inout Port reverse is unconnected and will be removed
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 65) expression size 32 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 68) expression size 20 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 35) net 'mem' does not have a driver (VDB-1002)
+[EFX-0007 VERI-WARNING] Input/Inout Port reverse is unconnected and will be removed
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 65) expression size 32 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 68) expression size 20 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 35) net 'mem' does not have a driver (VDB-1002)
+[EFX-0007 VERI-WARNING] Input/Inout Port reverse is unconnected and will be removed
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 65) expression size 32 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 68) expression size 20 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 35) net 'mem' does not have a driver (VDB-1002)
+[EFX-0007 VERI-WARNING] Input/Inout Port reverse is unconnected and will be removed
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 65) expression size 32 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 68) expression size 20 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 35) net 'mem' does not have a driver (VDB-1002)
+[EFX-0007 VERI-WARNING] Input/Inout Port reverse is unconnected and will be removed
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 65) expression size 32 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 68) expression size 20 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/T20/internal_reconfiguration_golden/internal_reconfiguration.v 35) net 'mem' does not have a driver (VDB-1002)
+[EFX-0007 VERI-WARNING] Input/Inout Port reverse is unconnected and will be removed
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/muti2/golden2/internal_reconfiguration.v 65) expression size 32 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/muti2/golden2/internal_reconfiguration.v 68) expression size 20 truncated to fit in target size 19 (VERI-1209)
+[EFX-0007 VERI-WARNING] (F:/efinity_prj/muti2/golden2/internal_reconfiguration.v 35) net 'mem' does not have a driver (VDB-1002)
+[EFX-0007 VERI-WARNING] Input/Inout Port reverse is unconnected and will be removed
+[EFX-0008 VERI-WARNING] (/home/wisdom/2019.3/project/muti_image/golden2/internal_reconfiguration.v 65) expression size 32 truncated to fit in target size 19 (VERI-1209)
+[EFX-0008 VERI-WARNING] (/home/wisdom/2019.3/project/muti_image/golden2/internal_reconfiguration.v 68) expression size 20 truncated to fit in target size 19 (VERI-1209)
+[EFX-0008 VERI-WARNING] (/home/wisdom/2019.3/project/muti_image/golden2/internal_reconfiguration.v 35) net 'mem' does not have a driver (VDB-1002)
+[EFX-0266 WARNING] Module Instance 'u1' input pin tied to constant (reverse=1).
+[EFX-0008 VERI-WARNING] Input/Inout Port reverse is unconnected and will be removed

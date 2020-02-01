@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<efx:tool_report xmlns:efx="http://www.efinixinc.com/tool_report" date="2020-02-01T12:56:20+0800" project="internal_reconfiguration_golden" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/tool_report tool_report.xsd">
+
+  <efx:group name="Core Resource">
+    <efx:group_data name="Inputs" severity="info" value="4 / 470"/>
+    <efx:group_data name="Outputs" severity="info" value="9 / 595"/>
+    <efx:group_data name="Clocks" severity="info" value="2 / 16"/>
+    <efx:group_data name="Logic Elements" severity="info" value="64 / 19728"/>
+    <efx:group_data name="Memory Blocks" severity="info" value="1 / 204"/>
+    <efx:group_data name="Multipliers" severity="info" value="0 / 36"/>
+  </efx:group>
+
+  <efx:group name="System Resource">
+    <efx:group_data info="runtime" name="packing" severity="info" value="0|0:0:0"/>
+    <efx:group_data info="runtime" name="placement" severity="info" value="0|0:0:1"/>
+    <efx:group_data info="runtime" name="routing" severity="info" value="0|0:0:0"/>
+    <efx:group_data info="peak_rr" name="Peak RSS" severity="info" value="527.24 MB"/>
+  </efx:group>
+
+  <efx:group name="Interface">
+    <efx:group_data name="Missing Interface Pins" severity="info" value="1"/>
+    <efx:group_data name="Unassigned Core Pins" severity="info" value="0"/>
+  </efx:group>
+
+  <efx:group name="Timing">
+    <efx:group_data name="Least Slack" severity="info" value="3985.46 ns"/>
+    <efx:group_data name="clk" severity="info" value="68.763 MHz"/>
+  </efx:group>
+
+</efx:tool_report>

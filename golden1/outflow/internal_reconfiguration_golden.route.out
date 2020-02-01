@@ -1,0 +1,94 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2019.3.272.1.6 
+Compiled: Jan 16 2020.
+
+Copyright (C) 2013 - 2019 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T20F256" ...
+
+***** Beginning stage routing graph generation ... *****
+Finished parsing ipin pattern file '/home/wisdom/2019.3/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file '/home/wisdom/2019.3/arch/./sb_connectivity_subset.xdb'.
+Generated 1169312 RR nodes and 4443628 RR edges
+This design has 0 global control net(s). See /home/wisdom/2019.3/project/muti_image/golden1/outflow/internal_reconfiguration_golden.route.rpt for details.
+Routing graph took 4.27444 seconds.
+	Routing graph took 4.27 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 403.376 MB, end = 755.252 MB, delta = 351.876 MB
+Routing graph resident set memory usage: begin = 120.144 MB, end = 472.536 MB, delta = 352.392 MB
+	Routing graph peak resident set memory usage = 491.748 MB
+***** Ending stage routing graph generation *****
+***** Beginning stage routing ... *****
+Peak routing utilization for Horizontal Left: 0.184069 at (147,109)
+Peak routing utilization for Horizontal Right: 0.116675 at (149,120)
+Peak routing utilization for Vertical Down: 0.168171 at (147,109)
+Peak routing utilization for Vertical Up: 0.146059 at (146,109)
+Peak routing congestion: 0.023165 at (155,192)
+V Congestion RMS: 0.014527 STDEV: 0.003070
+H Congestion RMS: 0.013050 STDEV: 0.001725
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+Routed wire in iteration 1: 3236
+Delay frac statistics: min = 0.515540 max = 0.980699 average = 0.686582
+         1          178              14.42             0.0539
+Routed wire in iteration 2: 3358
+         2           11              14.42             0.0509
+Routed wire in iteration 3: 3404
+         3            0              14.42             0.0451
+
+Successfully routed netlist after 3 routing iterations and 87346 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+Serial number (magic cookie) for the routing is: 968789288
+Netlist fully routed.
+
+Successfully created FPGA route file '/home/wisdom/2019.3/project/muti_image/golden1/outflow/internal_reconfiguration_golden.route'
+Routing took 0.315369 seconds.
+	Routing took 0.31 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 755.252 MB, end = 755.252 MB, delta = 0 MB
+Routing resident set memory usage: begin = 472.536 MB, end = 472.664 MB, delta = 0.128 MB
+	Routing peak resident set memory usage = 527.24 MB
+***** Ending stage routing *****
+***** Beginning stage final timing analysis ... *****
+
+Maximum possible analyzed clocks frequency
+Clock Name      Period (ns)   Frequency (MHz)   Edge
+clk                14.543          68.763     (R-R)
+
+Geomean max period: 14.543
+
+Launch Clock    Capture Clock    Constraint (ns)   Slack (ns)    Edge
+clk              clk                4000.000      3985.457     (R-R)
+
+
+final timing analysis took 0.00865877 seconds.
+	final timing analysis took 0.02 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 755.252 MB, end = 755.252 MB, delta = 0 MB
+final timing analysis resident set memory usage: begin = 472.664 MB, end = 472.664 MB, delta = 0 MB
+	final timing analysis peak resident set memory usage = 527.24 MB
+***** Ending stage final timing analysis *****
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from '/home/wisdom/2019.3/project/muti_image/golden1/outflow/internal_reconfiguration_golden.interface.csv'.
+Successfully processed interface constraints file "/home/wisdom/2019.3/project/muti_image/golden1/outflow/internal_reconfiguration_golden.interface.csv".
+Finished writing bitstream file /home/wisdom/2019.3/project/muti_image/golden1/work_pnr/internal_reconfiguration_golden.lbf.
+Bitstream generation took 0.353808 seconds.
+	Bitstream generation took 0.35 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 755.252 MB, end = 755.252 MB, delta = 0 MB
+Bitstream generation resident set memory usage: begin = 472.664 MB, end = 472.92 MB, delta = 0.256 MB
+	Bitstream generation peak resident set memory usage = 527.24 MB
+***** Ending stage bitstream generation *****
+The entire flow of EFX_PNR took 7.70626 seconds.
+	The entire flow of EFX_PNR took 7.71 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 133.756 MB, end = 557.976 MB, delta = 424.22 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 16.612 MB, end = 275.644 MB, delta = 259.032 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 527.24 MB

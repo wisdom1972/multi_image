@@ -1,0 +1,120 @@
+clock {
+  name: "clk"
+  period: 4000000
+  target_pin {
+    cell: "clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+  input_delay {
+    pin {
+      cell: "cfg_ERROR"
+      port: "INPAD"
+    }
+    arrival: 5000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "rstn"
+      port: "INPAD"
+    }
+    arrival: 5000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "clk_ru"
+      port: "INPAD"
+    }
+    arrival: 5000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "cfg_ERROR_port"
+      port: "OUTPAD"
+    }
+    setup: 5000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "cfg_CBSEL[1]"
+      port: "OUTPAD"
+    }
+    setup: 5000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "cfg_CBSEL[0]"
+      port: "OUTPAD"
+    }
+    setup: 5000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "cfg_ENA"
+      port: "OUTPAD"
+    }
+    setup: 5000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "cfg_CONFIG"
+      port: "OUTPAD"
+    }
+    setup: 5000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "led[3]"
+      port: "OUTPAD"
+    }
+    setup: 5000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "led[2]"
+      port: "OUTPAD"
+    }
+    setup: 5000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "led[1]"
+      port: "OUTPAD"
+    }
+    setup: 5000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "led[0]"
+      port: "OUTPAD"
+    }
+    setup: 5000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+}

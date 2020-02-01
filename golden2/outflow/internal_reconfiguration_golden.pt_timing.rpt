@@ -1,0 +1,49 @@
+
+Efinity Interface Designer Timing Report
+Version: 2019.3.272
+Date: 2020-02-01 12:29
+
+Copyright (C) 2017 - 2019 Efinix Inc. All rights reserved.
+
+Device: T20F256
+Project: internal_reconfiguration_golden
+Timing Model: C4 (final)
+
+---------- 1. PLL Timing Report (begin) ----------
+
++-------+-------------+-----------------------+
+| Clock | Period (ns) | Phase Shift (degrees) |
++-------+-------------+-----------------------+
+|  clk  |   4080.00   |           0           |
++-------+-------------+-----------------------+
+
+---------- PLL Timing Report (end) ----------
+
+---------- 2. GPIO Timing Report (begin) ----------
+
+Clock Network Delay:
+=====================
+
++-----------+----------+----------+
+| Clock Pin | Max (ns) | Min (ns) |
++-----------+----------+----------+
+|   clk_ru  |  4.110   |  2.055   |
++-----------+----------+----------+
+
+Non-registered GPIO Configuration:
+===================================
+
++----------------+----------------+-------------+----------+----------+
+| Instance Name  |    Pin Name    |  Parameter  | Max (ns) | Min (ns) |
++----------------+----------------+-------------+----------+----------+
+|     clk_ru     |     clk_ru     | GPIO_CLK_IN |  1.275   |  0.637   |
+|    reverse     |    reverse     |   GPIO_IN   |  1.396   |  0.698   |
+|      rstn      |      rstn      |   GPIO_IN   |  1.396   |  0.698   |
+| cfg_ERROR_port | cfg_ERROR_port |   GPIO_OUT  |  3.829   |  1.915   |
+|     led[0]     |     led[0]     |   GPIO_OUT  |  3.829   |  1.915   |
+|     led[1]     |     led[1]     |   GPIO_OUT  |  3.829   |  1.915   |
+|     led[2]     |     led[2]     |   GPIO_OUT  |  3.829   |  1.915   |
+|     led[3]     |     led[3]     |   GPIO_OUT  |  3.829   |  1.915   |
++----------------+----------------+-------------+----------+----------+
+
+---------- GPIO Timing Report (end) ----------

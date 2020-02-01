@@ -1,0 +1,112 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2019.3.272.1.6
+[EFX-0000 INFO] Compiled: Dec  9 2019.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2019 Efinix Inc. All rights reserved.
+
+INFO: ***** Beginning Analysis ... *****
+INFO: The default VHDL library search path is now "/home/wisdom/2019.3/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file '/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file '/home/wisdom/2019.3/project/muti_image/golden4/internal_reconfiguration.v' (VERI-1482)
+-- Analyzing Verilog file '/home/wisdom/2019.3/project/muti_image/golden4/internal_reconfiguration_top.v' (VERI-1482)
+INFO: Analysis took 0.00417135 seconds.
+INFO: 	Analysis took 0.01 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 158.772 MB, end = 159.38 MB, delta = 0.608 MB
+INFO: Analysis resident set memory usage: begin = 39.88 MB, end = 41.472 MB, delta = 1.592 MB
+INFO: 	Analysis peak resident set memory usage = 288.708 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(6): INFO: compiling module 'EFX_ADD' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(19): INFO: compiling module 'EFX_FF' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(36): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(45): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(59): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(75): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(87): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(95): INFO: compiling module 'EFX_MULT' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(130): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(190): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(262): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(367): INFO: compiling module 'RAMB5' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(429): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+/home/wisdom/2019.3/project/muti_image/golden4/internal_reconfiguration.v(13): INFO: compiling module 'internal_reconfiguration' (VERI-1018)
+/home/wisdom/2019.3/project/muti_image/golden4/internal_reconfiguration.v(65): WARNING: expression size 32 truncated to fit in target size 19 (VERI-1209)
+/home/wisdom/2019.3/project/muti_image/golden4/internal_reconfiguration.v(68): WARNING: expression size 20 truncated to fit in target size 19 (VERI-1209)
+/home/wisdom/2019.3/project/muti_image/golden4/internal_reconfiguration.v(35): WARNING: net 'mem' does not have a driver (VDB-1002)
+/home/wisdom/2019.3/project/muti_image/golden4/internal_reconfiguration_top.v(13): INFO: compiling module 'internal_reconfiguration_top' (VERI-1018)
+INFO: Elaboration took 0.00803306 seconds.
+INFO: 	Elaboration took 0.01 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 159.38 MB, end = 160.436 MB, delta = 1.056 MB
+INFO: Elaboration resident set memory usage: begin = 41.472 MB, end = 44.916 MB, delta = 3.444 MB
+INFO: 	Elaboration peak resident set memory usage = 288.708 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file '/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(6): INFO: compiling module 'EFX_ADD' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(19): INFO: compiling module 'EFX_FF' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(36): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(45): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(59): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(75): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(87): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(95): INFO: compiling module 'EFX_MULT' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(130): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(190): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(262): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(367): INFO: compiling module 'RAMB5' (VERI-1018)
+/home/wisdom/2019.3/sim_models/maplib/efinix_maplib.v(429): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+INFO: Reading Mapping Library took 0.00577283 seconds.
+INFO: 	Reading Mapping Library took 0 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 160.436 MB, end = 160.76 MB, delta = 0.324 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 44.916 MB, end = 45.84 MB, delta = 0.924 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 288.708 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 288708KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 288708KB)
+[EFX-0000 INFO] ... Mapping design "internal_reconfiguration_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "internal_reconfiguration" begin
+[EFX-0000 INFO] ... Clocked Read Port Synthesis for ram net: mem
+[EFX-0266 WARNING] Module Instance 'u1' input pin tied to constant (reverse=1).
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "internal_reconfiguration" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 288708KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "internal_reconfiguration_top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "internal_reconfiguration_top" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 288708KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 288708KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 288708KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 288708KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 288708KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 288708KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 34, ed: 112, lv: 3
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 288708KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 288708KB)
+[EFX-0000 INFO] ... Top level netlist RUSHC IOs pre-synthesis end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 288708KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 288708KB)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+WARNING: Input/Inout Port reverse is unconnected and will be removed
+INFO: Found 1 warnings in the post-synthesis netlist.
+INFO: VDB Netlist Checker took 0.0326922 seconds.
+INFO: 	VDB Netlist Checker took 0.04 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 165.28 MB, end = 165.28 MB, delta = 0 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 58.864 MB, end = 58.864 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 288.708 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'internal_reconfiguration_top' to Verilog file '/home/wisdom/2019.3/project/muti_image/golden4/outflow/internal_reconfiguration_golden.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	43
+[EFX-0000 INFO] EFX_LUT4        : 	38
+[EFX-0000 INFO] EFX_FF          : 	44
+[EFX-0000 INFO] EFX_RAM_5K      : 	1
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
